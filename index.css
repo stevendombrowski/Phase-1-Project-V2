@@ -8,6 +8,16 @@
     padding-top: 5px;
 }
 
+.button{
+    padding-left: 100px;
+   transform: translate(43em, -0%);
+    float: left;
+}
+
 .body {
+    
+}
+
+#output1{
 
 }
