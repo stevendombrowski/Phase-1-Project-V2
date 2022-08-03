@@ -9,15 +9,18 @@
 }
 
 .button{
-    padding-left: 100px;
-   transform: translate(43em, -0%);
-    float: left;
-}
-
-.body {
+    display: block;
+    text-align: center;
     
 }
 
-#output1{
 
+
+body{
+    width:auto;
+    height:auto;
+    margin:0;
+    background-color: white;
+color: black;
 }
+

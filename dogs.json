@@ -1,0 +1,48 @@
+[
+    {
+        "dogName":"Max",
+        "dogBreed":"Corgi",
+        "dogImg":"dogs/dog-01.jpeg"
+
+    },
+    {
+        "dogName":"Spike",
+        "dogBreed":"Daschund Mix",
+        "dogImg":"dogs/dog-10.webp"
+    },
+     {
+        "dogName":"Lizze",
+        "dogBreed":"Wiener Dog",
+        "dogImg":"dogs/dog-02.webp"
+    },
+    {
+        "dogName":"Alex",
+        "dogBreed":"Austrailan Sheperd Mix",
+        "dogImg":"dogs/dog-03.webp"
+    },
+    {
+        "dogName":"Miya",
+        "dogBreed":"Pug",
+        "dogImg":"dogs/dog-04.jpeg"
+    },
+    {
+        "dogName":"Marco",
+        "dogBreed":"Chihuhua Mix",
+        "dogImg":"dogs/dog-05.webp"
+    },
+    {
+        "dogName":"Bonnie",
+        "dogBreed":"Mix breed",
+        "dogImg":"dogs/dog-06.webp"
+    },
+    {
+        "dogName":"Poppy",
+        "dogBreed":"Unkown",
+        "dogImg":"dogs/dog-07.webp"
+    },
+    {
+        "dogName":"Kylo",
+        "dogBreed":"Shiba Inu",
+        "dogImg":"dogs/dog-09.webp" 
+    }
+]
