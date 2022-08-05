@@ -78,10 +78,12 @@ http.onload = function(){
         for(let dog of dogs){
             output +=`
             <div class="dogs">
-                <img src="${dog.dogImg}">
-                <p class ="title">${dog.dogName}</p>
-                <p class="description">${dog.dogBreed}</p> 
-                </div>`;
+                <img src="${dog.dogImg}" class="dogImg">
+               <div class="border"> 
+                <p class ="title">Dog's Name:${dog.dogName}</p>
+                <p class="description">Dog's Breed: ${dog.dogBreed}</p> 
+               </div> 
+            </div>`;
         }
         document.querySelector(".container").innerHTML = output;
     }

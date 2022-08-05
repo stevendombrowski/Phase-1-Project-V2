@@ -9,8 +9,11 @@
 }
 
 .button{
-    display: block;
-    text-align: center;
+    
+    display: inline-block;
+    padding-left: 23%;
+    
+    
     
 }
 
@@ -22,5 +25,22 @@ body{
     margin:0;
     background-color: white;
 color: black;
+}
+
+.dogImg{
+    width: 300px;
+    height: 250px;
+
+}
+.dogs{
+    float: left;
+    padding-left:25px
+}
+
+.border{
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
 }
 
