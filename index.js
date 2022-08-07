@@ -88,3 +88,17 @@ http.onload = function(){
         document.querySelector(".container").innerHTML = output;
     }
 }
+
+
+function dark(){
+    let element = document.body;
+    element.classList.toggle("dark");
+    
+  }
+  let body = document.querySelector('body');
+  
+  let toggle = document.getElementById('darkbutton');
+  toggle.onclick = function(){
+    toggle.classList.toggle('active')
+    body.classList.toggle('active')
+  }
