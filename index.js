@@ -82,12 +82,16 @@ http.onload = function(){
                <div class="border"> 
                 <p class ="title">Dog's Name:${dog.dogName}</p>
                 <p class="description">Dog's Breed: ${dog.dogBreed}</p> 
+                
                </div> 
             </div>`;
         }
-        document.querySelector(".container").innerHTML = output;
+        document.querySelector(".dogsData").innerHTML = output;
     }
-}
+};
+
+
+
 
 
 function dark(){
@@ -101,4 +105,6 @@ function dark(){
   toggle.onclick = function(){
     toggle.classList.toggle('active')
     body.classList.toggle('active')
-  }
+  };
+
+
