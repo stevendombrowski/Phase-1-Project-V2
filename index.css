@@ -63,8 +63,21 @@ color: black;
     text-align: center;
     background-color: white;
 }
+.locationText{
+  text-align: center;
+}
 
+.about{
+  text-align: center;
+  padding-left: 31.5%;
+  width:700px;
+  font-size: 20px;
 
+}
+.contact{
+  display: inline-block;
+  padding:10px
+}
 
 
 .dark {
