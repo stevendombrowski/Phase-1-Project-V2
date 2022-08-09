@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="StyleSheet" href="index.css">
+   
     
 
     <head></head>
     <header>
-    <div class="header">
+        <div class="header">
         <h1>DogsList</h1>
         <h2>Your Craigslist For Dogs</h2>
-    </div>
-    <div class="tabs">
-        <p class="button">Home</p>
-        <p class="button">Location</p>
-        <p class="button">About us</p>
-        <div id="darkbutton">
+        
+        </div>
+    </header>
+    <div>
+        <ul class="tabs">
+            <li data-tab-target="#home" class="button">Home</li>
+            <li data-tab-target="#location" class="button">Location</li>
+            <li data-tab-target="#about" class="button">About us</li>
+        </ul>
+    <div id="darkbutton">
             <i class="lightbutton"></i>
         </div>
     </div>
     
-</header>
 <body>
-    <div class="dogsData"></div>
+    <div class="tab-content">
+        <div id="home" class="active" data-tab-content></div>
+            <div id="location" data-tab-content>
+            <h1>This is where we are located!</h1>
+             </div>
+                <div id="about" data-tab-content>
+                    <h1>About Us</h1>
+                    <p>We are a local organization that wants to help dogs of all ages, breeds, and personalities find their forever home. Dogs are more than just pets, they are family. We know from experience that finding a dog for adoption can be a difficult process, so we like to help guide you to your new friend/family member.</p>
+                </div>
+
+    </div>
 
     
 </body>
