@@ -22,6 +22,7 @@ There are no additional tools that need to be installed for this project.
 The buttons on the page were designed by me.
 
 All pictures of dogs were captured from https://www.pexels.com/search/dogs/
+Youtube Video on About Us Page is owned by PetCo
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
