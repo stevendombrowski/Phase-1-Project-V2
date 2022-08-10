@@ -38,7 +38,7 @@ body{
     height:auto;
     margin:0;
     background-color: white;
-color: black;
+    color: black;
 }
 
 .dogImg{
@@ -117,18 +117,25 @@ color: black;
 
 body.active{
   background: #262626;
+ 
 }
 #darkbutton.active{
   background: white;
-
+ 
 }
 
 .breed-text{
+  border: 5px;
+  margin:0 auto;
+  border-style: solid;
+  border-color: lightblue;
   text-align: center;
-  padding-left: 35%;
-  padding-top: 5%;
-  text-align: justify;
-  font-size: 25px;
+  background-color: lightblue;
+  align-items: center;
+  width: 30%;
+  height:25px;
+
+  
 }
 .breed-select{
   width: 450px;
@@ -137,9 +144,6 @@ body.active{
   text-align: center;
   margin: 0 auto;
   display: block;
-  
-  
-  
 }
 #dogimage{
   padding-left: 38%;
