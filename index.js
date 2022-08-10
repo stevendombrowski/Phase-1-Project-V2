@@ -165,4 +165,6 @@ function dark(){
     getDogByBreed(event.target.value);
     
   }
+
   fetchDogBreeds()
+  
