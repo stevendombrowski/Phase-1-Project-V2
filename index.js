@@ -1,68 +1,4 @@
-// let myObj = { 
-//    "dogs": [
-//     {
-//         "dogName":"Max",
-//         "dogBreed":"Corgi",
-//         "dogImg":"<img src='https://images.pexels.com/photos/164186/pexels-photo-164186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>",
-
-//     },
-//     {
-//         "dogName":"Spike",
-//         "dogBreed":"Daschund Mix",
-//         "dogImg":"<img src='https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'>"
-//     },
-//      {
-//         "dogName":"Lizze",
-//         "dogBreed":"Wiener Dog",
-//         "dogImg":"<img src='https://images.pexels.com/photos/1139794/pexels-photo-1139794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'> "
-//     },
-//     {
-//         "dogName":"Alex",
-//         "dogBreed":"Austrailan Sheperd Mix",
-//         "dogImg":"<img src='https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     },
-//     {
-//         "dogName":"Miya",
-//         "dogBreed":"Pug",
-//         "dogImg":"<img src='https://images.pexels.com/photos/1289557/pexels-photo-1289557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     },
-//     {
-//         "dogName":"Marco",
-//         "dogBreed":"Chihuhua Mix",
-//         "dogImg":"<img src='https://images.pexels.com/photos/191353/pexels-photo-191353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     },
-//     {
-//         "dogName":"Bonnie",
-//         "dogBreed":"Mix breed",
-//         "dogImg":"<img src='https://images.pexels.com/photos/4201727/pexels-photo-4201727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     },
-//     {
-//         "dogName":"Poppy",
-//         "dogBreed":"Unkown",
-//         "dogImg":"<img src='https://images.pexels.com/photos/1458926/pexels-photo-1458926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     },
-//     {
-//         "dogName":"Kylo",
-//         "dogBreed":"Shiba Inu",
-//         "dogImg":"<img src='https://images.pexels.com/photos/4587979/pexels-photo-4587979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>"
-//     }
-// ],
-    
-   
-    
-// }
-// console.log(myObj.dogs)
-//   let output1 = document.getElementById("output1");
-
-
-
-//  for(let x=0;x<myObj.dogs.length;x++){
-//     let dog = myObj.dogs[x];
-//     console.log(dog);
-//     output1.innerHTML += dog.dogName + " " + dog.dogBreed + " "+ dog.dogImg +"<br>";
-//  }
-
-
+// JSON Data code
 let http = new XMLHttpRequest();
 
 http.open('get', 'dogs.json', true);
@@ -90,7 +26,7 @@ http.onload = function(){
     }
 };
 
-
+// Tabs code
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
@@ -110,7 +46,7 @@ tabs.forEach(tab => {
 
 
 
-
+// DarkMode Function
 function dark(){
     let element = document.body;
     element.classList.toggle("dark");
@@ -124,7 +60,7 @@ function dark(){
     body.classList.toggle('active')
   };
 
-
+// Dog API Code
   const fetchDogBreeds = async () => {
 
     const response = await fetch('https://api.thedogapi.com/v1/breeds');
