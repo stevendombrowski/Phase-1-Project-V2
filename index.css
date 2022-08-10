@@ -25,7 +25,7 @@
   background-color: lightblue;
 }
 .button{
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .button:hover {
@@ -77,6 +77,7 @@ body{
   background-color: lightblue;
   align-items: center;
   width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -89,11 +90,13 @@ body{
   background-color: lightblue;
   align-items: center;
   width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .contact{
   display: inline-block;
-  padding:10px
+  padding:10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -151,7 +154,7 @@ body.active{
   align-items: center;
   width: 30%;
   height:25px;
-
+  font-family: Arial, Helvetica, sans-serif;
   
 }
 .breed-select{
